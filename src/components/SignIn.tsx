@@ -1,5 +1,6 @@
 import React from "react"
 import { Icons } from "./Icons"
+import UserAuthForm from "./UserAuthForm"
 
 const SignIn = () => {
   return (
@@ -11,6 +12,7 @@ const SignIn = () => {
           By continuing you are setting up a Breadit account and agree to our
           User Agreement and Privacy Policy
         </p>
+        <UserAuthForm />
       </div>
     </div>
   )
